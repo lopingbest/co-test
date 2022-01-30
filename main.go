@@ -18,3 +18,11 @@ func fizzbuzz(n int) string {
 		return fmt.Sprintf("%d", n)
 	}
 }
+
+// fibonacci
+func fibonacci(n int) int {
+	if n < 2 {
+		return n
+	}
+	return fibonacci(n-1) + fibonacci(n-2)
+}
