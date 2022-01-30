@@ -26,3 +26,11 @@ func fibonacci(n int) int {
 	}
 	return fibonacci(n-1) + fibonacci(n-2)
 }
+
+//factorial
+func factorial(n int) int {
+	if n < 2 {
+		return n
+	}
+	return n * factorial(n-1)
+}
