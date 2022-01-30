@@ -47,3 +47,20 @@ func isPrime(n int) bool {
 	}
 	return true
 }
+
+// primitives
+func primitives() {
+	fmt.Println(fizzbuzz(15))
+	fmt.Println(fizzbuzz(3))
+	fmt.Println(fizzbuzz(5))
+	fmt.Println(fizzbuzz(1))
+	fmt.Println(fizzbuzz(0))
+	fmt.Println(fizzbuzz(30))
+	fmt.Println(fizzbuzz(45))
+	fmt.Println(fibonacci(5))
+	fmt.Println(fibonacci(10))
+	fmt.Println(factorial(5))
+	fmt.Println(factorial(10))
+	fmt.Println(isPrime(5))
+	fmt.Println(isPrime(10))
+}
